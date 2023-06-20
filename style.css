@@ -12,8 +12,10 @@ body {
 .wrapper {
     border: 3px solid rgb(53, 53, 255);
     background-image: url(background.png);
+    background-repeat: repeat-x;
     background-position-x: left;
-    animation: moveBackground 15s linear infinite;
+    background-size: cover;
+    animation: moveBackground 23s linear infinite;
     width: 80%;
     padding: 3vh 8vw;
     background-color: rgb(53, 53, 255);
@@ -68,7 +70,7 @@ button {
     display: block;
     background-color: rgb(255, 217, 0);
     border: none;
-    padding: 12px 15px;
+    padding: 2vh 2vw;
     font-size: 3vh;
     color: rgb(53, 53, 255);
     border-radius: 5px;
@@ -87,7 +89,7 @@ footer {
     position: absolute;
     bottom: 0vh;
     right: 2%;
-    font-size: 14px;
+    font-size: 2vh;
 }
 
 footer>h5 {
@@ -98,7 +100,7 @@ footer>h5 {
 }
 
 a {
-    font-size: 17px;
+    font-size: 2.5vh;
 }
 
 a:visited {
